@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .border-gradient {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#191b21, #191b21),
+      linear-gradient(45deg, #ff0057, #8b0fff, #0061ff, #00f7ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+  }
+}
